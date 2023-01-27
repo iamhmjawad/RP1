@@ -1,13 +1,14 @@
 import Header from './components/Header'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
-import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Services from './components/Services'
 
 import './styles/App.scss'
 import './styles/Header.scss'
 import './styles/Home.scss'
+import './styles/MediaQuries.scss'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/services' element={<Services />} />
       </Routes>
 
       <Footer />

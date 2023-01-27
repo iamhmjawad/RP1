@@ -1,6 +1,12 @@
 import React from 'react'
 import '../styles/Home.scss'
 import vg from '../assets/2.webp'
+import {
+  AiFillAmazonCircle,
+  AiFillGoogleCircle,
+  AiFillInstagram,
+  AiFillYoutube,
+} from 'react-icons/ai'
 
 const Home = () => {
   return (
@@ -27,21 +33,66 @@ const Home = () => {
         <div>
           <h1>Who we are?</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            officiis hic illo quos sit commodi, aut magnam odio eligendi? Totam
-            quis officiis fugit sunt dolores nostrum tenetur iusto est odio
-            mollitia. Dolor placeat repellendus officia aspernatur dolorum
-            harum. Dolorem cumque quaerat eius qui deserunt ullam laudantium
-            quia tempore. Dignissimos esse sequi numquam est ipsam nemo,
-            voluptas vel recusandae iste aspernatur qui quasi, commodi, atque
-            ipsa dolores tempore asperiores? Dolores soluta placeat molestiae
-            aperiam, ullam officia fugiat corrupti odio, suscipit ipsum cum vel
-            nemo. Ratione quo tempore fugit quaerat! Facilis beatae impedit
-            similique maxime praesentium sunt unde necessitatibus voluptates
-            ipsa, et, numquam reiciendis eveniet? Aliquid nemo nesciunt placeat,
-            qui fuga quae repellat sunt, non natus, iure ab officia rem ipsa cum
-            sed cumque corporis voluptate quibusdam nostrum quod saepe
+            We are a team of dedicated technology enthusiasts who are passionate
+            about solving all kinds of tech problems. Our goal is to help
+            individuals, small businesses and large organizations navigate the
+            ever-evolving world of technology with ease and confidence. Our
+            company was founded with the mission to make technology accessible
+            and easy to understand for everyone. We believe that technology
+            should be a tool to enhance people's lives and businesses, not a
+            source of frustration and confusion. Our team is made up of experts
+            in various fields of technology, including software development,
+            network engineering, cybersecurity, and more. We have a diverse set
+            of skills and experience that allows us to tackle any tech problem
+            that comes our way. We pride ourselves on our commitment to customer
+            service and satisfaction. We understand that technology issues can
+            be stressful, so we work quickly and efficiently to resolve problems
+            and provide clear and concise solutions.
           </p>
+        </div>
+      </div>
+
+      <div className='home4' id='brands'>
+        <div>
+          <h1>Brands</h1>
+
+          <article>
+            <div
+              style={{
+                animationDelay: '0.3s',
+              }}
+            >
+              <AiFillGoogleCircle />
+              <p>Google</p>
+            </div>
+
+            <div
+              style={{
+                animationDelay: '0.5s',
+              }}
+            >
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
+
+            <div
+              style={{
+                animationDelay: '0.7s',
+              }}
+            >
+              <AiFillYoutube />
+              <p>Youtube</p>
+            </div>
+
+            <div
+              style={{
+                animationDelay: '1s',
+              }}
+            >
+              <AiFillInstagram />
+              <p>Instagram</p>
+            </div>
+          </article>
         </div>
       </div>
     </>
